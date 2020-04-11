@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  /*margin: 30px;*/
+  /*border: 1px solid #d9d8d1;*/
+ }
+
+div.head {
+  background-color: #d9d8d1;
+  padding: 8px;
+}
+
+div.weather {
+  position: absolute;
+  top: 34px;
+  right: 34px;
+}
+
+div.info {
+  background-color: #ffffff;
+  padding: 8px;
+  border-bottom: 1px solid #d9d8d1;
+}
+
+div.stuff {
+  background-color: #ffffff;
+  padding: 8px 0px;
+}
+
+span.button {
+  border-top: 1px solid #ffff33;
+  border-left: 1px solid #ffff33;
+  border-bottom: 1px solid #cc9a00;
+  border-right: 1px solid #cc9a00;
+  background-color: #ffcd00;
+  padding: 0px 5px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+img {
+  border: none;
+}
+
+table {
+  margin: 13px;
+}
+
+td {
+  font-size: 13px;
+}
+
+td.icon {
+  width: 120px;
+}
+
+td.mono {
+  font-family: monospace;
+  padding-left: 16px;
+}
+
+div.stuff table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0px;
+}
+
+div.stuff td {
+  padding: 1px 8px;
+  font-size: 13px;
+  margin: 0px;
+}
+
+div.stuff tr.even {
+  background-color: #f6f6f0;
+}
+
+div.stuff tr.odd {
+  background-color: #ffffff;
+}
+
+div.stuff tr:hover {
+  background-color: #edece6;
+}
+
+div.foot {
+  background-color: #d9d8d1;
+  padding: 8px;
+  font-style: italic;
+}
